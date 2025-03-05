@@ -13,9 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EchoLibre",
-  description:
-    "C'est un forum où vous pourrez déverser tous vos sentiments de manière anonyme. Vous pourrez également lire les messages des autres utilisateurs, et réagir à leurs messages.",
+  title: "Schoolify",
+  description: "Une plateforme en ligne qui gère une école.",
 };
 
 export default function RootLayout({
@@ -24,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
