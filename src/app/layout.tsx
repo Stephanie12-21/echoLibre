@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Schoolify",
+  title: "ScolarVerse",
   description: "Une plateforme en ligne qui gère une école.",
 };
 
